@@ -1,0 +1,485 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-04-26T23:15:20.916541",
+    "patient": {
+      "name": "richa",
+      "age": 25,
+      "weight": 50
+    },
+    "medicine": {
+      "drug": "Paracetamol",
+      "therapeutic_class": "Antibiotic",
+      "chemical_class": "Para-aminophenol",
+      "primary_use": "Fever / Pain",
+      "habit_forming": "Yes"
+    },
+    "result": {
+      "severity_score": 1,
+      "total_effects": 2,
+      "effects_found": 2,
+      "side_effects": [
+        {
+          "name": "nausea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "diarrhea",
+          "severity": "Medium",
+          "description": ""
+        }
+      ],
+      "summary": "Random Forest predicted 2 side effects."
+    }
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-04-27T15:48:40.826983",
+    "patient": {
+      "name": "Akshay Patil",
+      "age": 22,
+      "weight": 60
+    },
+    "medicine": {
+      "drug": "Omeprazole",
+      "therapeutic_class": "Antibiotic",
+      "chemical_class": "Benzimidazole",
+      "primary_use": "Acid reflux / GERD",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 1,
+      "total_effects": 2,
+      "effects_found": 2,
+      "side_effects": [
+        {
+          "name": "nausea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "diarrhea",
+          "severity": "Medium",
+          "description": ""
+        }
+      ],
+      "summary": "Random Forest predicted 2 side effects."
+    }
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-04-27T15:48:51.164953",
+    "patient": {
+      "name": "Akshay Patil",
+      "age": 22,
+      "weight": 60
+    },
+    "medicine": {
+      "drug": "Omeprazole",
+      "therapeutic_class": "Antibiotic",
+      "chemical_class": "Benzimidazole",
+      "primary_use": "Acid reflux / GERD",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 1,
+      "total_effects": 2,
+      "effects_found": 2,
+      "side_effects": [
+        {
+          "name": "nausea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "diarrhea",
+          "severity": "Medium",
+          "description": ""
+        }
+      ],
+      "summary": "Random Forest predicted 2 side effects."
+    }
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-04-29T00:42:50.979134",
+    "patient": {
+      "name": "kaira",
+      "age": 22,
+      "weight": 55
+    },
+    "medicine": {
+      "drug": "Paracetamol",
+      "therapeutic_class": "Antibiotic",
+      "chemical_class": "Para-aminophenol",
+      "primary_use": "Fever / Pain",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 1,
+      "total_effects": 2,
+      "effects_found": 2,
+      "side_effects": [
+        {
+          "name": "nausea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "diarrhea",
+          "severity": "Medium",
+          "description": ""
+        }
+      ],
+      "summary": "Random Forest predicted 2 side effects."
+    }
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-05-09T11:59:55.257021",
+    "patient": {
+      "name": "Anonymous",
+      "age": 25,
+      "weight": 70
+    },
+    "medicine": {
+      "drug": "Paracetamol",
+      "therapeutic_class": "Analgesic",
+      "chemical_class": "Para-aminophenol",
+      "primary_use": "Fever / Pain",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 1,
+      "total_effects": 2,
+      "effects_found": 2,
+      "side_effects": [
+        {
+          "name": "nausea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "diarrhea",
+          "severity": "Medium",
+          "description": ""
+        }
+      ],
+      "summary": "Random Forest predicted 2 side effects."
+    }
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-09-15T15:00:52.175550",
+    "patient": {
+      "name": "xyz",
+      "age": 23,
+      "weight": 55
+    },
+    "medicine": {
+      "drug": "Aspirin",
+      "therapeutic_class": "Analgesic",
+      "chemical_class": "Salicylate",
+      "primary_use": "Pain relief",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 1,
+      "total_effects": 2,
+      "effects_found": 2,
+      "side_effects": [
+        {
+          "name": "nausea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "diarrhea",
+          "severity": "Medium",
+          "description": ""
+        }
+      ],
+      "summary": "Random Forest predicted 2 side effects."
+    }
+  },
+  {
+    "id": 7,
+    "timestamp": "2026-09-24T16:17:20.524616",
+    "patient": {
+      "name": "vaishnavi",
+      "age": 22,
+      "weight": 50
+    },
+    "medicine": {
+      "drug": "Aspirin",
+      "therapeutic_class": "Analgesic",
+      "chemical_class": "Salicylate",
+      "primary_use": "Pain relief",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 1,
+      "total_effects": 3,
+      "effects_found": 3,
+      "side_effects": [
+        {
+          "name": "nausea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "vomiting",
+          "severity": "Medium",
+          "description": ""
+        },
+        {
+          "name": "weight gain",
+          "severity": "Low",
+          "description": ""
+        }
+      ],
+      "summary": "XGBoost predicted 3 side effects."
+    }
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-09-24T16:18:28.755121",
+    "patient": {
+      "name": "vaishnavi",
+      "age": 22,
+      "weight": 50
+    },
+    "medicine": {
+      "drug": "Paracetamol",
+      "therapeutic_class": "Analgesic",
+      "chemical_class": "Para-aminophenol",
+      "primary_use": "Fever / Pain",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 1,
+      "total_effects": 3,
+      "effects_found": 3,
+      "side_effects": [
+        {
+          "name": "nausea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "vomiting",
+          "severity": "Medium",
+          "description": ""
+        },
+        {
+          "name": "weight gain",
+          "severity": "Low",
+          "description": ""
+        }
+      ],
+      "summary": "XGBoost predicted 3 side effects."
+    }
+  },
+  {
+    "id": 9,
+    "timestamp": "2026-09-24T16:18:56.189818",
+    "patient": {
+      "name": "vaishnavi",
+      "age": 22,
+      "weight": 50
+    },
+    "medicine": {
+      "drug": "Paracetamol",
+      "therapeutic_class": "Analgesic",
+      "chemical_class": "Para-aminophenol",
+      "primary_use": "Fever / Pain",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 2,
+      "total_effects": 6,
+      "effects_found": 6,
+      "side_effects": [
+        {
+          "name": "vomiting",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "loss of appetite",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "allergic reaction",
+          "severity": "Medium",
+          "description": ""
+        },
+        {
+          "name": "weight gain",
+          "severity": "Medium",
+          "description": ""
+        },
+        {
+          "name": "blurred vision",
+          "severity": "Low",
+          "description": ""
+        },
+        {
+          "name": "hypoglycemia (low blood glucose level)",
+          "severity": "Low",
+          "description": ""
+        }
+      ],
+      "summary": "LightGBM predicted 6 side effects."
+    }
+  },
+  {
+    "id": 10,
+    "timestamp": "2026-09-24T16:19:22.324562",
+    "patient": {
+      "name": "vaishnavi",
+      "age": 22,
+      "weight": 50
+    },
+    "medicine": {
+      "drug": "Paracetamol",
+      "therapeutic_class": "Analgesic",
+      "chemical_class": "Para-aminophenol",
+      "primary_use": "Fever / Pain",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 2,
+      "total_effects": 6,
+      "effects_found": 6,
+      "side_effects": [
+        {
+          "name": "diarrhea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "headache",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "rash",
+          "severity": "Medium",
+          "description": ""
+        },
+        {
+          "name": "indigestion",
+          "severity": "Medium",
+          "description": ""
+        },
+        {
+          "name": "itching",
+          "severity": "Low",
+          "description": ""
+        },
+        {
+          "name": "hypoglycemia (low blood glucose level)",
+          "severity": "Low",
+          "description": ""
+        }
+      ],
+      "summary": "CatBoost predicted 6 side effects."
+    }
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-09-24T16:19:59.897294",
+    "patient": {
+      "name": "vaishnavi",
+      "age": 22,
+      "weight": 50
+    },
+    "medicine": {
+      "drug": "Aspirin",
+      "therapeutic_class": "Analgesic",
+      "chemical_class": "Salicylate",
+      "primary_use": "Pain relief",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 2,
+      "total_effects": 6,
+      "effects_found": 6,
+      "side_effects": [
+        {
+          "name": "diarrhea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "headache",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "rash",
+          "severity": "Medium",
+          "description": ""
+        },
+        {
+          "name": "indigestion",
+          "severity": "Medium",
+          "description": ""
+        },
+        {
+          "name": "itching",
+          "severity": "Low",
+          "description": ""
+        },
+        {
+          "name": "hypoglycemia (low blood glucose level)",
+          "severity": "Low",
+          "description": ""
+        }
+      ],
+      "summary": "CatBoost predicted 6 side effects."
+    }
+  },
+  {
+    "id": 12,
+    "timestamp": "2026-09-24T16:21:45.741397",
+    "patient": {
+      "name": "vaishnavi",
+      "age": 22,
+      "weight": 50
+    },
+    "medicine": {
+      "drug": "Aspirin",
+      "therapeutic_class": "Analgesic",
+      "chemical_class": "Salicylate",
+      "primary_use": "Pain relief",
+      "habit_forming": "No"
+    },
+    "result": {
+      "severity_score": 1,
+      "total_effects": 3,
+      "effects_found": 3,
+      "side_effects": [
+        {
+          "name": "nausea",
+          "severity": "High",
+          "description": ""
+        },
+        {
+          "name": "vomiting",
+          "severity": "Medium",
+          "description": ""
+        },
+        {
+          "name": "weight gain",
+          "severity": "Low",
+          "description": ""
+        }
+      ],
+      "summary": "XGBoost predicted 3 side effects."
+    }
+  }
+]

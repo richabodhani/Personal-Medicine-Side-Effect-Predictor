@@ -15,3 +15,8 @@ ENV/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Large dataset files & models
+*.csv
+catboost_info/
+
